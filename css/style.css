@@ -17,7 +17,7 @@ body {
 
 
 header .pc_navi_li {
-    margin-left: 60px;
+    margin-left: 73px;
     margin-top: 69px;
 
 }
@@ -32,9 +32,73 @@ header .pc_navi_li li a {
 
     letter-spacing: 1.3px;
     padding-right: 10px
+}777
+
+
+.home {
+    border-radius: 3px;
+    background-color: #e8e4da;
+    padding: 10px 0px 0px 11px;
+    width: 700px;
+    height: 34px;
+    font-family: HiraKakuPro;
+    color: #887f69;
+    font-size: 11px;
+    line-height: 24px;
+    font-weight: 550;
+
+
+}
+
+.back_next {
+    margin-top: 20px;
+    margin-bottom: 81px;
 }
 
 
+
+.back {
+    font-family: AvenirNext;
+    color: #ffffff;
+    font-size: 14px;
+
+    font-weight: 700;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+    background-color: #887f69;
+    width: 121px;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+.next_second {
+    font-family: AvenirNext;
+    color: #ffffff;
+    font-size: 14px;
+
+    font-weight: 700;
+    line-height: 18px;
+    float: right;
+    text-align: center;
+    background-color: #887f69;
+    width: 121px;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+
+
+.category_name {
+    margin-top: 10px;
+    margin-bottom: 11px;
+
+    width: 700px;
+    height: 170px;
+
+}
 
 
 .title-border {
@@ -43,6 +107,7 @@ header .pc_navi_li li a {
     align-items: center;
     margin-top: 31px;
     margin-bottom: 30px;
+    clear: left;
 }
 
 .title-border:before,
@@ -330,3 +395,281 @@ footer .copy {
     margin-top: -15px;
 }
 
+.slide {
+    padding: 39px 62px 80px 62px;
+    background-color: #fff;
+}
+
+.border {
+    height: 1px;
+    border: none;
+    border-top: 1px #e8e4da solid;
+    margin-bottom: 20px;
+}
+
+.syouhinmei {
+    font-family: HiraKakuPro;
+    color: #000000;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 3px;
+    float: left;
+
+}
+
+.namber {
+    font-family: HiraKakuPro;
+    color: #a6a6a6;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: right;
+}
+
+#display_img {
+    float: left;
+}
+
+
+#display_img img {
+    height: 410px;
+    width: 410px;
+
+
+}
+
+#list_img li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+#list_img li img {
+    width: 75px;
+    height: 76px;
+    cursor: pointer;
+    margin-left: 9px;
+    margin-bottom: -9px;
+
+}
+
+.border2 {
+    height: 1px;
+    border: none;
+    border-top: 1px #e8e4da solid;
+    margin-top: 180px;
+    margin-bottom: 20px;
+}
+
+.color-size {
+    margin-bottom: 13px;
+}
+
+.color-box p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: HiraKakuPro;
+    color: #887f69;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.color-box input {
+    margin-top: 3px;
+}
+
+.box1 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e8e4da;
+    box-sizing: border-box;
+    background-color: #f9f9f5;
+    width: 162px;
+    height: 40px;
+    display: inline-block;
+    float: left;
+
+}
+
+.box2 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e8e4da;
+    box-sizing: border-box;
+    background-color: #f9f9f5;
+    width: 210px;
+    height: 40px;
+    display: inline-block;
+    float: left;
+}
+
+.box3 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e8e4da;
+    box-sizing: border-box;
+    background-color: #f9f9f5;
+    width: 210px;
+    height: 40px;
+    display: inline-block;
+}
+
+.border3 {
+    width: 58%;
+    height: 1px;
+    border: none;
+    border-top: 1px #e8e4da solid;
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+}
+
+.price {
+    margin-top: 25px;
+    float: left;
+}
+
+.yen {
+    font-family: HiraKakuPro;
+    font-style: oblique;
+    color: #e80f66;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 90px;
+    float: left;
+
+}
+
+.kingaku {
+    font-family: HiraKakuPro;
+    color: #e80f66;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 19px;
+    float: left;
+    font-style: oblique;
+}
+
+.tax {
+    font-family: HiraKakuPro;
+    color: #000000;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 20px;
+    font-style: oblique;
+    float: left;
+}
+
+.border4 {
+    width: 58%;
+    height: 1px;
+    border: none;
+    border-top: 1px #e8e4da solid;
+    margin-bottom: 20px;
+}
+
+.cart {
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.quantity {
+    float: left;
+    margin-top: 7px;
+}
+
+.box4 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e8e4da;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 149px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: -5px;
+}
+
+.border5 {
+    height: 1px;
+    border: none;
+    border-top: 1px #e8e4da solid;
+    margin-top: 8px;
+    margin-bottom: 35px;
+}
+
+.setumei {
+    font-family: HiraKakuPro;
+    color: #887f69;
+    font-size: 16px;    
+    line-height: 24px;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.border6 {
+    height: 1px;
+    border: none;
+    border-top: 1px #887f69 solid;
+    margin-bottom: 25px;
+}
+
+.setumei2 {
+    font-family: HiraKakuPro;
+color:  #000000;
+font-size: 14px;
+line-height: 24px;
+text-align: left;
+    font-weight: 600;
+}
+
+.box5{
+    border-style: solid;
+border-width: 1px;
+border-color:  #e8e4da;
+box-sizing: border-box;
+background-color:  #f9f9f5;
+width: 162px;
+height: 40px;
+    float: left;
+}
+
+.box5 p{
+    text-align: center;
+    margin-top: 10px;
+    font-family: HiraKakuPro;
+    color: #887f69;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.box6{
+    border-style: solid;
+border-width: 1px;
+border-color:  #e8e4da;
+box-sizing: border-box;
+background-color:  #ffffff;
+width: 418px;
+height: 40px;
+    display: inline-block;
+}
+
+.box6 p{
+    text-align: center;
+    margin-top: 10px;
+    font-family: HiraKakuPro;
+    color: #887f69;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    margin-left: 10px;
+}
