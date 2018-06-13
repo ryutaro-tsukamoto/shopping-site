@@ -160,7 +160,7 @@ header .sp_navi .home {
 .items-box {
     background-color: #fff;
     box-sizing: border-box;
-    height: 313px;
+    height: 340px;
     width: 232px;
     flex: 1;
     padding: 15px 15px 30px 15px;
@@ -413,7 +413,7 @@ footer .copy {
 
 .slide {
     height: 500px;
-    padding: 39px 62px 10px 62px;
+    padding: 39px 50px 10px 50px;
     background-color: #fff;
 }
 
@@ -964,4 +964,5 @@ footer .copy {
 
 .kara{
     background-color: #fff;
+    padding: 10px;
 }
