@@ -35,20 +35,7 @@ header .pc_navi_li li a {
 }
 
 
-header .sp_navi .home {
-    border-radius: 3px;
-    background-color: #e8e4da;
-    padding: 10px 0px 0px 11px;
-    width: 700px;
-    height: 34px;
-    font-family: HiraKakuPro;
-    color: #887f69;
-    font-size: 11px;
-    line-height: 24px;
-    font-weight: 550;
 
-
-}
 
 .home {
     border-radius: 3px;
@@ -61,6 +48,7 @@ header .sp_navi .home {
     font-size: 11px;
     line-height: 24px;
     font-weight: 550;
+    margin-bottom: 10px;
 
 
 }
@@ -115,6 +103,11 @@ header .sp_navi .home {
 
 }
 
+.category_name img {
+    width: 710px;
+    height: 170px;
+
+}
 
 .title-border {
     color: #887f69;
@@ -450,8 +443,8 @@ footer .copy {
 
 
 #display_img img {
-    height: 410px;
-    width: 410px;
+    display: inline-block;
+    width: 100%;
 
 
 }
@@ -516,6 +509,18 @@ footer .copy {
     border-color: #e8e4da;
     box-sizing: border-box;
     background-color: #f9f9f5;
+    width: 210px;
+    height: 40px;
+    display: inline-block;
+    float: left;
+}
+
+.box-2 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e8e4da;
+    box-sizing: border-box;
+    background-color: #fff;
     width: 210px;
     height: 40px;
     display: inline-block;
@@ -645,7 +650,7 @@ footer .copy {
     font-size: 14px;
     line-height: 24px;
     text-align: left;
-    font-weight: 600;
+    
 }
 
 .box5 {
@@ -771,10 +776,9 @@ footer .copy {
     }
 
     .page-top {
-        margin-right: 120px;
+        margin-right: 130px;
         margin-top: 20px;
-        height: 10px;
-        width: 100px;
+        
     }
 
     .border {
@@ -816,8 +820,8 @@ footer .copy {
     
     
     #display_img img{
-        width: 330px;
-        height: 320px
+        display: inline-block;
+    width: 100%;
     }
     
     
@@ -831,7 +835,7 @@ footer .copy {
     }
     
     .border2{
-        margin-top: 50px; 
+        margin-top: 80px; 
     }
     
     .syouhinmei{
@@ -852,6 +856,9 @@ footer .copy {
         width: 115px;
     }
     
+    .box-2{
+        width: 115px;
+    }
     .border3{
         width: 100%;
     }

@@ -30,3 +30,15 @@ $(window).load(function(){
     $("#display_img img").attr("src", img_src);
   });
 });
+
+
+
+
+ 
+    $(document).ready(function(){
+
+      $("#sp_navi_btn").click(function () {
+        $(this).next().slideToggle();
+      });
+
+    });
