@@ -973,3 +973,25 @@ footer .copy {
     background-color: #fff;
     padding: 10px;
 }
+
+.owl-theme .owl-dots .owl-dot span {
+width: 25px;
+height: 2px;
+margin: 0 8px 0 0;
+background: #aaaaaa;
+display: block;
+-webkit-backface-visibility: visible;
+transition: opacity .2s ease;
+border-radius: 0;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span 
+{
+      background: #ff0242; }
+
+.owl-theme .owl-dots {
+  text-align: left;
+
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 0px; }
